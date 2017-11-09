@@ -19,3 +19,6 @@ target_link_libraries(tk1_ntcore_test ntcore)
 
 add_executable(tk1_cscore_test cscore_main.cpp)
 target_link_libraries(tk1_cscore_test cscore)
+
+add_executable(fisheye unwarp_fisheye.cpp)
+target_link_libraries(fisheye cscore)

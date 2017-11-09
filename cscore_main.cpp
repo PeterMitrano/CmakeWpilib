@@ -1,6 +1,5 @@
 #include <iostream>
 
-#include <llvm/raw_ostream.h>
 #include <cscore.h>
 #include <opencv2/core.hpp>
 
